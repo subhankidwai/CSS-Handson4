@@ -1,0 +1,202 @@
+.body{
+    margin: 0;
+}
+
+.div1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-image: linear-gradient(
+        to right,
+        red,
+        green 20%,
+        yellow
+    );
+}
+
+.div2{
+    text-align: center;
+    background-color: aquamarine;
+    border: 3px red solid;
+    border-radius: 10px;
+    margin: 10px 350px;
+    padding: 0px 200px;
+}
+
+.div3{
+    background-color: aqua;
+    border: 3px purple solid;
+    border-radius: 10px;
+    position: relative;
+    height: 160px;
+    text-align: center;
+}
+
+.b1{
+    border: 3px green solid;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    top: 0;
+    left: 20px;
+}
+
+.b2{
+    border: 3px green solid;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    top: 0;
+    left: 470px;
+}
+
+.b3{
+    border: 3px green solid;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    top: 0;
+    right: 40px;
+}
+
+.b4{
+    border: 3px green solid;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    bottom: 0px;
+    left: 470px;
+}
+
+.div4{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 10px 0;
+    background-image: linear-gradient(
+        to right,
+        red,
+        yellow,
+        red
+    );
+}
+
+.div5{
+    border: 2px green solid;
+    height: 230px;
+    position: relative;
+    background-image: radial-gradient(
+        rgb(101, 101, 238) 40%,
+        rgb(84, 214, 84)
+    );
+}
+
+.b5{
+    position: absolute;
+    background-color: yellow;
+    top: 90px;
+    left: 90px;
+    border: 2px brown solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    width: 150px;
+}
+
+.b6{
+    position: absolute;
+    background-color: yellow;
+    top: 90px;
+    left: 385px;
+    border: 2px brown solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    width: 150px;
+}
+
+.b7{
+    position: absolute;
+    background-color: yellow;
+    top: 90px;
+    left: 710px;
+    border: 2px brown solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    width: 150px;
+}
+
+.b8{
+    position: absolute;
+    background-color: yellow;
+    top: 90px;
+    left: 1010px;
+    border: 2px brown solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    width: 150px;
+}
+
+.div6{
+    background-color: rgb(201, 50, 50);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.grid-container{
+    background-color: white;
+    display: grid;
+    margin: 15px 0;
+    grid-template-columns: auto auto auto 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+    color: white;
+}
+
+.item1{
+    background-color: rgb(46, 134, 46);
+    height: 55px;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    width: 395px;
+}
+
+.item2{
+    background-color: rgb(101, 101, 247);
+    height: 55px;
+    font-size: 22px;
+    padding: 5px;
+    width: 395px;
+}
+
+.item3{
+    background-color: rgb(136, 64, 136);
+    height: 55px;
+    font-size: 16px;
+    padding: 5px;
+    width: 395px;
+}
+
+.item4{
+    background-color: rgb(66, 65, 65);
+    padding-left: 0;
+}
+
+.item5{
+    grid-column: 1/4;
+    grid-row: 2/4;
+    background-color: orange;
+}
